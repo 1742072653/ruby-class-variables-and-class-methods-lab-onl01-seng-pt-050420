@@ -3,8 +3,6 @@ class Song
   @@count = 0
   @@genres = []
   @@artists =[]
-  123 = sone.new
-  jayz = song.new
   attr_accessor:name, :artist, :genre
   
 =======
