@@ -1,13 +1,20 @@
 class Song 
+<<<<<<< HEAD
   @@count = 0
   @@genres = []
   @@artists =[]
   attr_accessor:name, :artist, :genre
   
+=======
+ 
+ @@song_count = 0
+ 
+>>>>>>> 66fec6f9b512d7ef288645708080158e3c872bc2
   def initialize(name,artist,genre)
     @name = name
     @artist = artist
     @genre = genre
+<<<<<<< HEAD
     @@genres << genre
     @@artists << artist
     @@count += 1
@@ -49,3 +56,16 @@ class Song
     return hash
   end
 end
+=======
+  end
+
+def count
+  
+
+  
+end
+
+
+
+
+>>>>>>> 66fec6f9b512d7ef288645708080158e3c872bc2
