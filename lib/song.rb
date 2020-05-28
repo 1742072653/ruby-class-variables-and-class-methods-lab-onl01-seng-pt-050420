@@ -2,7 +2,7 @@ class Song
 <<<<<<< HEAD
   @@count = 0
   @@genres = []
-  @artists =[]
+  @@artists =[]
   123 = sone.new
   jayz = song.new
   attr_accessor:name, :artist, :genre
